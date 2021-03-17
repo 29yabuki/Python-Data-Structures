@@ -27,12 +27,11 @@ class Deque():
     def __repr__(self):
         return self.items
 
-
 if __name__ == '__main__':
     d = Deque()
     d.add_rear(4)
-    d.add_rear('dog')
-    d.add_front('cat')
+    d.add_rear('dogs')
+    d.add_front('cats')
     d.add_front(True)
     print(d)
     print(d.size())

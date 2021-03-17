@@ -54,7 +54,7 @@ class ReversedStack():
 if __name__ == '__main__':
     s = Stack()
     s.push(4)
-    s.push('dog')
+    s.push('dogs')
     print(s.peek())
     s.push(True)
     print(s.size())

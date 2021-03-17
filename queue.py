@@ -25,7 +25,7 @@ if __name__ == '__main__':
     q = Queue()
     print(q.is_empty())
     q.enqueue(4)
-    q.enqueue('dog')
+    q.enqueue('dogs')
     q.enequeue(True)
     print(q)
     print(q.size())
