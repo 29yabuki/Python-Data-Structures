@@ -27,7 +27,7 @@ class Deque():
     def __repr__(self):
         return self.items
 
-    
+
 if __name__ == '__main__':
     d = Deque()
     d.add_rear(4)

@@ -50,6 +50,7 @@ class ReversedStack():
     def __repr__(self):
         return self.items
 
+
 if __name__ == '__main__':
     s = Stack()
     s.push(4)

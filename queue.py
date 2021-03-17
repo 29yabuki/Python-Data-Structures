@@ -20,6 +20,7 @@ class Queue():
     def __repr__(self):
         return self.items
 
+
 if __name__ == '__main__':
     q = Queue()
     print(q.is_empty())
