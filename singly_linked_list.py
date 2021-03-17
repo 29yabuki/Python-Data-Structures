@@ -167,12 +167,13 @@ class LinkedList():
         
         return current.get_data()
 
-mylist = LinkedList()
-mylist.add(3)
-mylist.add(4)
-mylist.add(1)
-print(mylist.index(3))
-mylist.remove(3)
-print(mylist.size())
-print(mylist.pop())
-print(mylist.size())
+if __name__ == '__main__':
+    mylist = LinkedList()
+    mylist.add(3)
+    mylist.add(4)
+    mylist.add(1)
+    print(mylist.index(3))
+    mylist.remove(3)
+    print(mylist.size())
+    print(mylist.pop())
+    print(mylist.size())
